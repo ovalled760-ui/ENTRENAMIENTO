@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #8f8d8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgb(255, 228, 228);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+}
+
+
+.header-text p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.header-text h2 {
+    margin: 5px 0;
+}
+
+.saldo-label {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.header-text h1 {
+    margin: 5px 0 0;
+    font-size: 26px;
+}
+
+.profile {
+    position: absolute;
+    top: 130px;
+    right: 480px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile img {
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.profile a {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: -40px 15px 0 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 80px;
+}
+
+.card h3 {
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+
+.transaction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.transaction img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.transaction span {
+    flex: 1;
+}
+
+.transaction .positivo {
+    color: green;
+    font-weight: bold;
+    text-align: right;
+}
+
+.transaction .negativo {
+    color: red;
+    font-weight: bold;
+    text-align: right;
+}
+
+.transaction span:first-child {
+    flex: 0 0 auto;
+}
